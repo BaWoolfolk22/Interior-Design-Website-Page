@@ -11,9 +11,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 300;
-    color: #555;
-    
-    
+    color: #555;  
 }
 
 
@@ -66,8 +64,7 @@ a.btn {
     color: #fff;
     border: 1px solid #fff;
     padding: 4px 15px;
-    transition: background-color .5s;
-    
+    transition: background-color .5s;   
 }
 
 
@@ -81,7 +78,7 @@ a.btn:hover {
 
 header {
     height: 630px;
-    background-color: #eee9d9; 
+    background-color: #ccc; 
     background-image: url(../images/graphics/hero-image_1200.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -149,7 +146,8 @@ section.main aside {
 
 section.main aside p {
     color:#444;
-    line-height: 1.5em;
+    line-height: .9em;
+    line-height: 1.6;
       
 }
 
@@ -194,7 +192,7 @@ section.main aside .content.tools {
 
 
 section.atmosphere {
-    background-color: #42032C;
+    background-color: rgba(0,0,0,.85);
     color: #fff;
     padding-top: 50px; 
     padding-bottom: 50px;
@@ -217,10 +215,11 @@ section.atmosphere article  {
 
 
 section.atmosphere .article-text  {
-    line-height: 2.5em;
+    line-height: 2em;
     color: #eee9d9;
     width: 600px; 
-    text-align: center;       
+    text-align: center; 
+      
 }
 
 
@@ -235,10 +234,17 @@ section.atmosphere .article-image {
     color:#eee9d9;    
 }
 
+section.atmosphere p {
+    font-size: 1em;
+    line-height: 1.5;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
 /* Section - How To */
 
 section.how-to {
-    background-color: #eee9d9;
+    background-color: #ccc;
     height: auto;
     display: flex;
     flex-direction: row;
@@ -283,7 +289,6 @@ section.how-to aside .content a {
 
 section.how-to blockquote {
     width: 20%;
-  
     color: #444;
     background-color: #fff;
     margin-bottom: 35px;
@@ -317,7 +322,7 @@ section.how-to blockquote p .credit {
 
 section.how-to blockquote::before {
     content: '\201c';
-    color: #d2bd65;
+    color: #42032C;
     position: absolute;
     top: 10px;
     left: 8px;
