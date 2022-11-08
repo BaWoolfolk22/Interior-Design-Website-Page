@@ -814,14 +814,14 @@ footer div.content a {
     /* Header */
 
     header {
-        height: 127px;
+        height: 160px;
         background-image: url(../images/graphics/hero-image_425.jpg);
         
        
     }
 
         header a.logo {
-            height: 36px;
+            height: 56px;
             background: rgba(0,0,0,.65) url(../images/graphics/logo_small.svg) no-repeat center center;
             background-size: 126px 17px;
             text-align: center;
@@ -839,7 +839,8 @@ footer div.content a {
 
         header div.hero h1 {
             font-size: 1em;
-            margin-bottom: 8px;
+            margin-top: 10px;
+            margin-bottom: 11px;
         }
 
 
@@ -847,6 +848,25 @@ footer div.content a {
             padding: 2px 30px;
             font-size: .8rem;
         }
+
+        /* Section - Main */
+        section.main aside div.content {
+            margin: 40px 65px 10px 6px;
+            
+         }
+
+         div.content.trending p {
+            font-size: .9em;
+         }
+
+         div.content.find-it p {
+            font-size: .9em;
+         }
+
+         div.content.tools p {
+            font-size: .9em;
+
+         }
 
 
          /* Section - How-To */
@@ -875,10 +895,6 @@ section.how-to aside div.content p {
 
 }
 
-section.how-to aside div.content img {
-   
-   
-}
 
 section.how-to blockquote p {
     margin-bottom: -20px;
